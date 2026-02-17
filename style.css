@@ -1,0 +1,39 @@
+#search {
+    width: 60%;
+    padding: 8px;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+@media(max-width:768px){
+    .main{
+        flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+        text-align: center;
+    }
+}
+.thumb{
+    width:50px;
+    height:50px;
+    object-fit: cover;
+    border-radius:5px;
+    margin-right:10px;
+}
+
+.song{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.now-playing img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:10px;
+}
+.body{
+    background: #c2b9b9;
+}

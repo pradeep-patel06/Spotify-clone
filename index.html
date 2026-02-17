@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main">
+
+    <div class="sidebar">
+        <h2>Spotify</h2>
+        <ul>
+            <li onclick="showPlaylist('all')">🏠 All Songs</li>
+            <li onclick="showPlaylist('fav')">❤️ Favourites</li>
+        </ul>
+    </div>
+
+    <div class="content">
+
+        <input type="text" id="search" placeholder="Search song...">
+
+        <div class="now-playing">
+            <img id="thumbnail" src="images/img1.jpg">
+            <div>
+                <h3 id="song-name">Song Name</h3>
+                <p id="time">00:00 / 00:00</p>
+            </div>
+        </div>
+
+        <div class="playlist" id="playlist"></div>
+
+        <div class="controls">
+            <button id="prev">⏮️</button>
+            <button id="play">▶️</button>
+            <button id="next">⏭️</button>
+        </div>
+
+        <input type="range" id="progress" value="0">
+
+        <div class="volume">
+         <button id="mute">🔊</button>
+         <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+        </div>
+
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
