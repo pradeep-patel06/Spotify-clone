@@ -2,6 +2,9 @@ Spotify Clone
 
 A simple Spotify Clone built using HTML, CSS, and JavaScript.
 
+🚀 Live Demo
+👉 spotify-clone-flax-alpha.vercel.app
+
 ##  Features
 - Play / Pause music
 - Next / Previous song
