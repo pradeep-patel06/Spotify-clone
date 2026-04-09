@@ -1,4 +1,4 @@
-Spotify Clone V4 🎵
+Spotify Clone 🎵
 
 A modern Spotify-like music player built using HTML, CSS, and JavaScript. Play songs, manage favourites, view recently played tracks, shuffle, repeat, control volume, and toggle light/dark mode.
 
