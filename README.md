@@ -2,7 +2,7 @@ Spotify Clone 🎵
 
 A modern Spotify-like music player built using HTML, CSS, and JavaScript. Play songs, manage favourites, view recently played tracks, shuffle, repeat, control volume, and toggle light/dark mode.
 
-🚀 Live Demo: spotify-clone-flax-alpha.vercel.app
+🚀 Live Demo: https://spotify-clone-ww2z.vercel.app
 
 Features
 Play / Pause music
